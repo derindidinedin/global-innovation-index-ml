@@ -4,7 +4,7 @@ A Random Forest predicts a country's Global Innovation Index (GII) rank from its
 
 It asks to what extent a country's innovation performance, measured by the GII, can be predicted from its economic indicators, and which indicators explain the differences between countries.
 
-This project merges the GII rankings with national economic data for 2011 to 2021 (1,562 country-year observations) and compares two models for predicting a country's GII rank: a Random Forest Regressor and a Multi-Layer Perceptron neural network.
+This project merges the GII rankings with national economic data for 2011 to 2021 (1,562 country-year observations) and compares two models for predicting a country's GII rank: a Random Forest Regressor and a Multi-Layer Perceptron neural network. The models are trained on 2011 to 2018 and tested on 2019 to 2021. Because the split is by time, they are evaluated only on years they never saw, so no future information leaks into training.
 
 Final project submitted for **GEOG0178 Machine Learning for Social Sciences with Python**, in partial fulfilment of the BASc Arts and Sciences at University College London (2024-25).
 
