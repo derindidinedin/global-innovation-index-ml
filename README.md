@@ -6,6 +6,8 @@ This project merges the GII rankings with national economic data for 2011 to 202
 
 It was my final project for **GEOG0178 Machine Learning for Social Sciences with Python** at University College London (2024-25).
 
+The full write-up, with the literature review, method and discussion, is in **[report.pdf](report.pdf)**.
+
 ## Results
 
 | Model | MAE | RMSE | R² |
