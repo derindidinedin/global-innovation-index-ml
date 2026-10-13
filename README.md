@@ -1,6 +1,8 @@
 # Predicting National Innovation from Economic Indicators
 
-To what extent can a country's innovation performance, measured by the Global Innovation Index (GII), be predicted from its economic indicators, and which indicators explain the differences between countries?
+A Random Forest predicts a country's Global Innovation Index (GII) rank from its economic indicators with **R² = 0.948**, and **per capita GNI** is by far the strongest predictor.
+
+It asks to what extent a country's innovation performance, measured by the GII, can be predicted from its economic indicators, and which indicators explain the differences between countries.
 
 This project merges the GII rankings with national economic data for 2011 to 2021 (1,562 country-year observations) and compares two models for predicting a country's GII rank: a Random Forest Regressor and a Multi-Layer Perceptron neural network.
 
@@ -14,6 +16,8 @@ The full write-up, with the literature review, method and discussion, is in **[r
 |---|---|---|---|
 | Random Forest | 6.24 | 8.53 | **0.948** |
 | Neural network (MLP) | 7.64 | 9.76 | 0.932 |
+
+![Actual vs predicted GII rank for both models](figures/actual_vs_predicted.png)
 
 - The Random Forest outperformed the neural network on every metric. Tree-based models tend to suit small and medium tabular datasets like this one, while MLPs need more data to reach their best performance and are harder to interpret.
 - Feature importance points to **per capita GNI** as by far the strongest predictor of GII rank, with an importance close to 0.8. Every other indicator scored below 0.1.
