@@ -6,7 +6,7 @@ It asks to what extent a country's innovation performance, measured by the GII, 
 
 This project merges the GII rankings with national economic data for 2011 to 2021 (1,562 country-year observations) and compares two models for predicting a country's GII rank: a Random Forest Regressor and a Multi-Layer Perceptron neural network.
 
-It was my final project for **GEOG0178 Machine Learning for Social Sciences with Python** at University College London (2024-25).
+Final project submitted for **GEOG0178 Machine Learning for Social Sciences with Python**, in partial fulfilment of the BASc Arts and Sciences at University College London (2024-25).
 
 The full write-up, with the literature review, method and discussion, is in **[report.pdf](report.pdf)**.
 
